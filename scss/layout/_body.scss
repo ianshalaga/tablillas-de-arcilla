@@ -1,0 +1,12 @@
+.grid-body-container {
+  display: grid;
+  grid-template-rows: 1fr auto; // header fixed, nav fixed, main, footer
+  //   grid-template-columns: repeat(3, 1fr);
+  min-height: 100vh;
+  // max-width: 100%;
+  overflow-x: hidden;
+}
+
+// .container {
+//   max-width: 50%;
+// }

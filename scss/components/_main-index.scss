@@ -1,0 +1,69 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2em;
+  padding-bottom: 3em;
+  width: 75%;
+  gap: 10em;
+
+  .index-card:nth-child(2n) {
+    // direction: rtl;
+    flex-direction: row-reverse;
+  }
+}
+
+.index {
+  &-card {
+    // position: relative;
+    // z-index: 2;
+    // display: flex;
+    // justify-content: space-around;
+    // align-items: center;
+    // display: grid;
+    display: flex;
+    // grid-template-columns: 50fr 50fr;
+
+    justify-items: center;
+    align-items: center;
+    column-gap: 2em;
+    // background-attachment: fixed;
+
+    // grid-auto-flow: column;
+
+    // border: 2px solid $color-red;
+    // padding: 2em;
+    // position: relative;
+
+    // background-image: linear-gradient(to right, $color-dark-brown, transparent),
+    //   url("../../assets/images/ishtar.png");
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // max-height: min-content;
+
+    &-text {
+      min-width: 75%;
+      padding: 2em;
+
+      &-header {
+        margin-bottom: 1em;
+      }
+
+      &-paragraph {
+        // margin-bottom: 1em;
+        font-size: x-large;
+      }
+    }
+
+    &-image {
+      min-width: 25%;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 2em;
+      filter: drop-shadow(0 0 10px $color-light-brown);
+      border: 2px solid $color-light-brown;
+    }
+  }
+}

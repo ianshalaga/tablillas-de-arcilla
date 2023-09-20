@@ -1,0 +1,21 @@
+main {
+  background-color: $color-dark-brown;
+  color: $color-light-brown;
+  // background-image: url("../../assets/images/main.png");
+  // background-image: linear-gradient(
+  //     to right,
+  //     transparent,
+  //     $color-dark-brown 12.5%,
+  //     $color-dark-brown 87.5%,
+  //     transparent
+  //   ),
+  //   url("../../assets/images/main.png");
+  // background-size: cover;
+  // background-position: center;
+  // background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 1em + $header-height + $nav-height;
+}

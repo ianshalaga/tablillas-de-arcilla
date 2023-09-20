@@ -1,0 +1,17 @@
+// Base
+@import "./base/variables";
+@import "./base/fonts";
+@import "./base/reset";
+@import "./base/mixins";
+
+// Components
+@import "./components/header";
+@import "./components/nav";
+@import "./components/main-index";
+@import "./components/main-epopeya";
+@import "./components/main-tablilla";
+@import "./components/footer";
+
+// Layout
+@import "./layout/body";
+@import "./layout/index";
